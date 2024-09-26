@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url(componment/container.css);
+
+@import url(componment/avatar.css);
+
+@import url(componment/button.css);
+
+@import url(componment/banner.css);
+
+@import url(componment/two.css);
+
+@import url(componment/one.css);
+
+body{
+    font-family: "Lora", serif;
+    font-size: 18px;
+    margin: 0px;
+}
+h1, h2, h3{
+    font-family: "Lora", sans-serif;
+    font-weight: bolder; 
+}
+a{
+    text-decoration: none;
+}
+.semicontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .one {
+    grid-column: 1;
+  }
+  
+  .two {
+    grid-column: 2;
+  }
+  a:hover{
+    background-color: darkgoldenrod;
+    padding: 18px 23px;
+  }
+
